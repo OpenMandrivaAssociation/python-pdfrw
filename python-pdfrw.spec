@@ -2,7 +2,7 @@
 
 Name:		python-%{oname}
 Version:	0.1
-Release:	1
+Release:	2
 Summary:	PDF file reader/writer library
 Source0:	https://pypi.python.org/packages/source/p/%{oname}/%{oname}-%{version}.tar.gz
 License:	MIT
