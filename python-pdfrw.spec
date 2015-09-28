@@ -1,13 +1,13 @@
 %define	oname	pdfrw
 
 Name:		python-%{oname}
-Version:	0.1
-Release:	2
+Version:	0.2
+Release:	1
 Summary:	PDF file reader/writer library
 Source0:	https://pypi.python.org/packages/source/p/%{oname}/%{oname}-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
-Url:		http://code.google.com/p/pdfrw/
+Url:		https://pypi.python.org/pypi/pdfrw
 BuildArch:	noarch
 BuildRequires:	pythonegg(setuptools)
 BuildRequires:	pkgconfig(python)
