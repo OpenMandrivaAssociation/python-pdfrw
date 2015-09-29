@@ -9,7 +9,7 @@ License:	MIT
 Group:		Development/Python
 Url:		https://pypi.python.org/pypi/pdfrw
 BuildArch:	noarch
-BuildRequires:	pythonegg(setuptools)
+BuildRequires:	python3egg(setuptools)
 BuildRequires:	pkgconfig(python)
 
 %description
@@ -27,10 +27,10 @@ March 2010.  Several small examples are provided.
 %setup -q -n %{oname}-%{version}
 
 %build
-python setup.py build
+%{__python} setup.py build
 
 %install
-python setup.py install --root=%{buildroot}
+%{__python} setup.py install --root=%{buildroot}
 cp -R examples %{buildroot}%{py_puresitedir}/pdfrw/
 chmod +x %{buildroot}%{py_puresitedir}/pdfrw/pdfwriter.py
 
