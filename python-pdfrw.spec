@@ -1,4 +1,4 @@
-%define	oname	pdfrw
+%define	oname pdfrw
 
 Name:		python-%{oname}
 Version:	0.2
@@ -35,7 +35,6 @@ cp -R examples %{buildroot}%{py_puresitedir}/pdfrw/
 chmod +x %{buildroot}%{py_puresitedir}/pdfrw/pdfwriter.py
 
 %files
-%doc README.txt
 %{py_puresitedir}/pdfrw/*.py*
 %{py_puresitedir}/pdfrw/objects/*.py*
 %{py_puresitedir}/pdfrw*.egg-info
