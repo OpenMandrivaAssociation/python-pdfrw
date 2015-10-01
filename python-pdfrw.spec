@@ -39,7 +39,7 @@ by default for PDF and SVG images by default since
 March 2010.  Several small examples are provided.
 
 %prep
-%setup -q -n %{oname}-%{version}
+%setup -q -c %{oname}-%{version}
 
 mv %{oname}-%{version} python3
 cp -a python3 python2
