@@ -12,6 +12,7 @@ BuildArch:	noarch
 BuildRequires:	python3egg(setuptools)
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(python)
+BuildRequires:	pythonegg(setuptools)
 
 %description
 pdfrw lets you read and write PDF files, including
